@@ -65,7 +65,7 @@ resource_fields = {
 	'name': fields.String,
 	'surname': fields.String,
 	'age': fields.Integer,
-    'gender': fields.String,
+        'gender': fields.String,
 }
 
 student = StudentModel(id=student_id, name=args['name'], surname=args['surname'], age=args['age'], gender=args['gender'])
